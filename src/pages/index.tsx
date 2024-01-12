@@ -6,7 +6,7 @@ const Wallets = dynamic(() => import("../components/Wallets"), { ssr: false });
 export default function IndexPage() {
   return (
     <VStack gap={8} mt={16}>
-      <Heading>Solana Custom Wallet UI example (Chakra UI)</Heading>
+      <Heading>Sol Chronicles: Connect your wallet</Heading>
 
       <Wallets />
     </VStack>
